@@ -76,8 +76,8 @@ namespace Generics.First
 
                             student.Age = ReadInteger("Age of student: ");
 
-                            Console.Write("Sex of student: ");
-                            student.Sex = Console.ReadLine();
+                            Console.Write("Gender of student: ");
+                            student.Gender = Console.ReadLine();
 
                             student.School = ReadInteger("School: ");
 
